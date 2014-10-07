@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Radley-Regular.ttf.ttx, Radley-Italic.ttf.ttx, src/Radley-Regular.otf.ttx,
+  src/Radley-Regular.sfd, src/Radley-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
